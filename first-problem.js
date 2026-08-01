@@ -8,7 +8,7 @@
 let item =  { food: [10, 20, 30], travel: [5, 15], bills: [40, 60] }
 
 let result = {}
-
+ 
 for(let key in item){
      result[key] = item[key].reduce((acc,curr) => {
      return acc + curr
