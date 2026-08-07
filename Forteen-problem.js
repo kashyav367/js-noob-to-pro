@@ -15,5 +15,3 @@ function Capitalize(obj){
 
 let result = Capitalize({ name: "alice", city: "delhi" })
 console.log(result)
-
-//str.charAt(0).toUpplerCae
